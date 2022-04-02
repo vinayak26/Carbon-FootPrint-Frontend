@@ -1,0 +1,108 @@
+p {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  margin-top: 40px;
+  text-align: left;
+}
+
+
+.bg-image {
+  background-image: url("../../Images/bg-1.jpg");
+  width: 100vw;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15vh;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.carbon-text {
+  color: #40514E;
+  display:flex;
+  font-weight: 700;
+}
+.buttons {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+/* .btn{
+    background-color: rgba(23, 26, 32, 0.8);
+  height: 40px;
+  width: 256px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  opacity: 0.85;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 8px;
+} */
+
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  p{
+      text-align: center;
+  }
+  .carbon-text{
+      display: inline-block;
+  }
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #303841;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #303841 inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  align-items: center;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+  box-shadow: 0 0 10px 0 #00ADB5 inset, 0 0 10px 4px #3498db;
+}
