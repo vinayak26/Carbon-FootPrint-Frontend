@@ -1,4 +1,4 @@
-# Carbon-FootPrint-Frontend
+# UI-Frontend
 Open Directory <br>
 cd client <br>
 npm install <br>
