@@ -1,3 +1,9 @@
 *{
-    overflow: hidden;
+    outline: none;
+}
+home-container{
+
+    margin: 0;
+    overflow-y: hidden;
+
 }

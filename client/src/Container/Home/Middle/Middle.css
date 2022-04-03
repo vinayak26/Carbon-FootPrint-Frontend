@@ -2,14 +2,12 @@ p {
   font-family: "Merriweather", serif;
   font-weight: 500;
   margin-top: 40px;
-  text-align: left;
+  font-size: 1.5rem;
 }
 
-
 .bg-image {
-  background-image: url("../../Images/bg-1.jpg");
-  width: 100vw;
-  height: 700px;
+  background-image: url("../../Images/bg-2.jpg");
+  /* width: 100vw; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,6 +15,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-height: 670px;
 }
 
 .text-container {
@@ -26,13 +25,13 @@ p {
   align-items: center;
   height: 100%;
   font-weight: 700;
-  font-size: 20px;
 }
 
 .carbon-text {
-  color: #40514E;
-  display:flex;
-  font-weight: 700;
+  color: #222831;
+  font-size: 2.625rem;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
 }
 .buttons {
   margin-bottom: 30px;
@@ -60,11 +59,8 @@ p {
     flex-direction: column;
     padding-bottom: 10px;
   }
-  p{
-      text-align: center;
-  }
-  .carbon-text{
-      display: inline-block;
+  p {
+    text-align: center;
   }
 }
 
@@ -104,5 +100,5 @@ p {
 .btn:focus {
   color: #fff;
   outline: 0;
-  box-shadow: 0 0 10px 0 #00ADB5 inset, 0 0 10px 4px #3498db;
+  box-shadow: 0 0 10px 0 #00adb5 inset, 0 0 10px 4px #3498db;
 }

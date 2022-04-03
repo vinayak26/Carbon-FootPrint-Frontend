@@ -1,5 +1,6 @@
 import React from "react";
 import "./Middle.css";
+import Typical from "react-typical";
 
 function Middle() {
   return (
@@ -7,7 +8,21 @@ function Middle() {
         <div className="text-container">
           <h1 className="heading">
             Machine Learning{" "}
-            <span className="carbon-text">Carbon Footprint Generator</span>
+            <span>
+            <Typical className="carbon-text"
+            
+            loop={Infinity}
+            steps={[
+              "Carbon Footprint Generator",
+              1000,
+              "It uses Ml",
+              1000,
+              "Works Always",
+              1000,
+
+            ]}
+
+            /></span>
           </h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p>Vivamus massa mauris, blandit id magna sed</p>
