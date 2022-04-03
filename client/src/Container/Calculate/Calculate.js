@@ -3,11 +3,10 @@ import "./Calculate.css";
 
 function Calculate() {
   return (
-    <div>
-      
+    <div className="calculate-parent">
+      <h1>Hey</h1>
     </div>
   );
 }
-<script>$('.select2').select2();</script>
 
 export default Calculate;

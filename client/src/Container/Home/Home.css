@@ -1,9 +1,14 @@
-*{
-    outline: none;
-}
-home-container{
-
-    margin: 0;
-    overflow-y: hidden;
-
-}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 670px;
+    background-image: url("../Images/bg-2.jpg");
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 670px; 
+  }
