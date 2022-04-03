@@ -3,8 +3,8 @@ import "./Calculate.css";
 
 function Calculate() {
   return (
-    <div>
-      
+    <div className="calculate-parent">
+      <h1>Hey</h1>
     </div>
   );
 }

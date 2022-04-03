@@ -4,7 +4,7 @@ import Typical from "react-typical";
 
 function Middle() {
   return (
-      <div className="bg-image">
+      <div>
         <div className="text-container">
           <h1 className="heading">
             Machine Learning{" "}
