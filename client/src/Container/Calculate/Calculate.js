@@ -27,7 +27,7 @@ export default function Calculate(props) {
       name="models"
       />
       <Calculatemain selected={selected} setSelected={setSelected}
-      name="engine type"
+      name="engine types"
       />
     </div>
   );
