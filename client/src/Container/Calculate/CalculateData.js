@@ -41,6 +41,7 @@ export const companyName = [
     "Other",
   ];
 
+
 export const carModel = [
   "F150 FFV",
   "F150 FFV 4X4",
@@ -175,3 +176,6 @@ export const carModel = [
 ];
 // export companyName; 
 // export carModel;
+
+export default companyName
+

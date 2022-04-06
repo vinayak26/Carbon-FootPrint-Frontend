@@ -2,7 +2,13 @@ import React, {useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScroolService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+
 import {Calculatemain, Calculatemain2} from "./Calculatemain";
+
+import Calculatemain from "./Calculatemain";
+import "./Calculatemain.css"
+
+
 
 export default function Calculate(props) {
   let fadeInScreenHandler = (screen) => {
@@ -16,19 +22,32 @@ export default function Calculate(props) {
 
 
   return (
-    <div className="about-me-container screen-container" id={props.id || ""}>
-      <div className="about-me-parent">
+    <div className="calculate-container screen-container" id={props.id || ""}>
+      <div className="calculate-parent">
         <ScreenHeading title={"Calculate"} subHeading={"Input Your Values"} />
       </div>
+      <div className="calculate-main">
       <Calculatemain selected={selected} setSelected={setSelected}
       name= "Company"
       />
+
       <Calculatemain2 selected={selected} setSelected={setSelected}
       name="models"
       />
       <Calculatemain selected={selected} setSelected={setSelected}
       name="engine types"
+
+      <Calculatemain selected={selected} setSelected={setSelected}
+      name="Models"
       />
+      <Calculatemain selected={selected} setSelected={setSelected}
+      name="Vehicle Class"
+      />
+      <Calculatemain selected={selected} setSelected={setSelected}
+      label ="Engine Size"
+
+      />
+      </div>
     </div>
   );
 }
