@@ -2,8 +2,12 @@ import React, {useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScroolService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+
+import {Calculatemain, Calculatemain2} from "./Calculatemain";
+
 import Calculatemain from "./Calculatemain";
 import "./Calculatemain.css"
+
 
 
 export default function Calculate(props) {
@@ -26,6 +30,13 @@ export default function Calculate(props) {
       <Calculatemain selected={selected} setSelected={setSelected}
       name= "Company"
       />
+
+      <Calculatemain2 selected={selected} setSelected={setSelected}
+      name="models"
+      />
+      <Calculatemain selected={selected} setSelected={setSelected}
+      name="engine types"
+
       <Calculatemain selected={selected} setSelected={setSelected}
       name="Models"
       />
@@ -34,6 +45,7 @@ export default function Calculate(props) {
       />
       <Calculatemain selected={selected} setSelected={setSelected}
       label ="Engine Size"
+
       />
       </div>
     </div>
