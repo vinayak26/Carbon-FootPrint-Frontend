@@ -2,7 +2,7 @@ import React, {useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScroolService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import Calculatemain from "./Calculatemain";
+import {Calculatemain, Calculatemain2} from "./Calculatemain";
 
 export default function Calculate(props) {
   let fadeInScreenHandler = (screen) => {
@@ -23,7 +23,7 @@ export default function Calculate(props) {
       <Calculatemain selected={selected} setSelected={setSelected}
       name= "Company"
       />
-      <Calculatemain selected={selected} setSelected={setSelected}
+      <Calculatemain2 selected={selected} setSelected={setSelected}
       name="models"
       />
       <Calculatemain selected={selected} setSelected={setSelected}
