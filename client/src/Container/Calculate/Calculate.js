@@ -21,8 +21,13 @@ export default function Calculate(props) {
         <ScreenHeading title={"Calculate"} subHeading={"Input Your Values"} />
       </div>
       <Calculatemain selected={selected} setSelected={setSelected}
+      name= "Company"
       />
       <Calculatemain selected={selected} setSelected={setSelected}
+      name="models"
+      />
+      <Calculatemain selected={selected} setSelected={setSelected}
+      name="engine type"
       />
     </div>
   );
