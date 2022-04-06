@@ -16,8 +16,8 @@ export default function Calculate(props) {
 
 
   return (
-    <div className="about-me-container screen-container" id={props.id || ""}>
-      <div className="about-me-parent">
+    <div className="calculate-container screen-container" id={props.id || ""}>
+      <div className="calculate-parent">
         <ScreenHeading title={"Calculate"} subHeading={"Input Your Values"} />
       </div>
       <Calculatemain selected={selected} setSelected={setSelected}
@@ -27,7 +27,7 @@ export default function Calculate(props) {
       name="models"
       />
       <Calculatemain selected={selected} setSelected={setSelected}
-      name="engine type"
+      label ="Enter A thing"
       />
     </div>
   );
