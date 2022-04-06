@@ -6,6 +6,7 @@
   flex-direction: row;
 }
 
+
 .container{
     width: 100%;
     height: 100vh;
@@ -110,4 +111,12 @@
 }
 .text-field{
   background-color: #303841;
+}
+@media (max-width: 768px){
+  .calculate-main{
+    flex-direction: column;    
+  }
+  .dropdown{
+    margin: 10px auto;
+  }
 }

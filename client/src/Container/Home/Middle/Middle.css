@@ -51,6 +51,9 @@ p {
     font-size: 1em;
     transition: all 0.2s ease;
   }
+  .text-container{
+    height: 80%;
+  }
 }
 
 .btn {
