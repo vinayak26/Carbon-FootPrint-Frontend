@@ -9,10 +9,10 @@ function Calculatemain(props) {
     <div className="dropdown">
       {props.name ? (
         <div className="dropdown-main">
-          <label>{props.name}</label>
+          <label className="dropdown-label">{props.name}</label>
           <div className="dropdown-btn" onClick={(e) => setIsActive(!isActive)}>
             {selected}
-            <span className="fas fa-caret-down"></span>
+            <span className="down-arrow fas fa-caret-down"></span>
           </div>
           {isActive && (
             <div className="dropdown-content">
@@ -34,7 +34,7 @@ function Calculatemain(props) {
         <div></div>
       )}
 
-      <div className="textfielf">
+      <div className="textfield">
         {props.label ? (
           <div class="form__group">
             <input

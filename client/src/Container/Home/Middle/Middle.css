@@ -11,18 +11,19 @@ p {
   display: flex;
   flex-direction: column;
   margin: 5% auto 0;
-  height: 400px;
+  height: 100%;
   align-items: center;
 }
 
 .text-container {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  height: 100%;
+  height: 540px;
   font-weight: 700;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-y: hidden;
 }
 
 .carbon-text {
@@ -49,6 +50,9 @@ p {
   .carbon-text {
     font-size: 1em;
     transition: all 0.2s ease;
+  }
+  .text-container{
+    height: 80%;
   }
 }
 

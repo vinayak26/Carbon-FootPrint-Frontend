@@ -3,6 +3,8 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScroolService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import Calculatemain from "./Calculatemain";
+import "./Calculatemain.css"
+
 
 export default function Calculate(props) {
   let fadeInScreenHandler = (screen) => {
@@ -20,15 +22,20 @@ export default function Calculate(props) {
       <div className="calculate-parent">
         <ScreenHeading title={"Calculate"} subHeading={"Input Your Values"} />
       </div>
+      <div className="calculate-main">
       <Calculatemain selected={selected} setSelected={setSelected}
       name= "Company"
       />
       <Calculatemain selected={selected} setSelected={setSelected}
-      name="models"
+      name="Models"
       />
       <Calculatemain selected={selected} setSelected={setSelected}
-      label ="Enter A thing"
+      name="Vehicle Class"
       />
+      <Calculatemain selected={selected} setSelected={setSelected}
+      label ="Engine Size"
+      />
+      </div>
     </div>
   );
 }
