@@ -1,6 +1,6 @@
 import Home from "../Container/Home/Home";
 import Calculate from "../Container/Calculate/Calculate";
-
+import Calculatemain from "../Container/Calculate/Calculatemain";
 export const TOTAL_SCREENS = [
     {
       screen_name: "Home",
